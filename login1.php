@@ -16,7 +16,7 @@ if($_POST){
 		  	echo "logged successfully";
 		  	
 		  }
-		  header("location:2.html");  
+		  header("location:index.html");  
 		  $conn = null;
 }
 ?> 

@@ -16,7 +16,7 @@ if($_POST){
 
 		  $conn->exec($sql);
 		  echo "New record created successfully";
-		  header("location: 4.html");
+		  header("location: login.html");
 
 $conn = null;
 }
